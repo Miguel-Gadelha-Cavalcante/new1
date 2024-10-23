@@ -1,0 +1,50 @@
+[
+    {
+        "nome": "Produto 1",
+        "descricao": "Farinha, Açúcar, Ovos.",
+        "preco": 10.00,
+        "imagem": "assets/prato1.jpg"
+    },
+    {
+        "nome": "Produto 2",
+        "descricao": "Chocolate, Leite, Baunilha.",
+        "preco": 15.00,
+        "imagem": "assets/prato2.jpg"
+    },
+    {
+        "nome": "Produto 3",
+        "descricao": "Queijo, Presunto, Pão.",
+        "preco": 12.00,
+        "imagem": "assets/prato3.jpg"
+    },
+    {
+        "nome": "Produto 4",
+        "descricao": "Tomate, Alface, Cebola.",
+        "preco": 8.00,
+        "imagem": "assets/prato4.jpg"
+    },
+    {
+        "nome": "Produto 5",
+        "descricao": "Frango, Arroz, Ervilhas.",
+        "preco": 20.00,
+        "imagem": "assets/prato5.jpg"
+    },
+    {
+        "nome": "Produto 6",
+        "descricao": "Peixe, Limão, Temperos.",
+        "preco": 25.00,
+        "imagem": "assets/prato6.webp"
+    },
+    {
+        "nome": "Produto 7",
+        "descricao": "Batata, Queijo, Bacon.",
+        "preco": 18.00,
+        "imagem": "assets/prato7.jpg"
+    },
+    {
+        "nome": "Produto 8",
+        "descricao": "Salada, Molho, Croutons.",
+        "preco": 14.00,
+        "imagem": "assets/prato8.jpg"
+    }
+]

@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e37d34; /* Marrom rústico */
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.pedido-conta {
+  position: fixed; /* Fixa o botão na tela */
+  top: 20px; /* Distância do topo */
+  right: 20px; /* Distância da direita */
+  padding: 10px 20px;
+  background-color: #d3d3d3; /* Cor acizentada */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
+.pedido-conta:hover {
+  background-color: #c0c0c0; /* Cor ao passar o mouse */
+}
+
+.pedir-conta {
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+.close {
+  cursor: pointer;
+  color: red;
+  float: right;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  background: #edc6aa;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  width: 40%; /* 40% do espaço horizontal */
+  text-align: center;
+  display: flex; /* Para alinhar conteúdo horizontalmente */
+  flex-direction: row; /* Direção horizontal */
+  align-items: center; /* Centraliza verticalmente */
+}
+.card img {
+  width: 100px; /* Largura fixa */
+  height: 100px; /* Altura fixa */
+  object-fit: cover; /* Para manter a proporção da imagem */
+  border-radius: 5px;
+  margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+.card h2 {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+.card p {
+  line-height: 1.2;
+}
+.button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.button:hover {
+  background-color: #218838;
+}
+.cart {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  width: 250px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: none;
+  padding: 10px;
+  z-index: 1000;
+}
+.cart h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.cart-list li {
+  margin: 5px 0;
+}
+.cart-icon {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  font-size: 2em;
+  z-index: 1000;
+}
+.request-button {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  z-index: 1000;
+}
+.request-button:hover {
+  background-color: #0056b3;
+}
+
+.delete {
+  cursor: pointer;
+  color: red;
+  font-size: 20px;
+  float: right; /* Posiciona o "x" no canto superior direito */
+  margin-top: -20px; /* Ajusta a posição vertical */
+  margin-right: -10px; /* Ajusta a posição horizontal */
+}
+.delete:hover {
+  color: darkred; /* Muda a cor ao passar o mouse */
+}
+.delete-all-button {
+  position: fixed; /* Fixa o botão na parte inferior esquerda */
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delete-all-button:hover {
+  background-color: #c82333;
+}
+.delete {
+  cursor: pointer;
+  color: red;
+  font-size: 20px;
+  float: right; /* Posiciona o "x" no canto superior direito */
+  margin-top: -20px; /* Ajusta a posição vertical */
+  margin-right: -10px; /* Ajusta a posição horizontal */
+}
+.delete:hover {
+  color: darkred; /* Muda a cor ao passar o mouse */
+}
+.delete-all-button {
+  position: fixed; /* Fixa o botão na parte inferior esquerda */
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delete-all-button:hover {
+  background-color: #c82333;
+}
+
+
